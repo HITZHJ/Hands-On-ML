@@ -1,0 +1,20 @@
+机器学习的代码和数据记创建了一个工作区目录
+export ML_PATH="$HOME/ml"
+mkdir -p $ML_PATH
+
+获取数据
+	创建工作区
+		1.使用以下命令新建一个隔离的python环境：
+			cd $ML_PATH
+			virtualenv env
+		2.以后每当想要激活这个环境时，只需要打开终端并输入：
+			cd $ML_PATH
+			source env/bin/activate
+		问题：安装pip之前一定要先确定安装了python3
+	下载数据
+		问题：下载数据时，对网络有一定要求，可能需要外网权限
+	快速查看数据结构
+		jupyter的神奇指令 %matplotlib inline 会设置matplotlib从而使用juypter自己的后端
+
+
+
